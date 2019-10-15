@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>The Requested Dog Video.</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+	<nav>
+	<a href="Homepageref">Home</a>
+	<a href="DogPicLink">Dog Pic</a>
+	<a href="DogvideoRef">Dog Video</a>
+	</nav>
+	
+	
+	<a href="https://www.youtube.com/watch?v=LEZ_xL1S4hs">Dug - I Mean Dog!</a>
+
+	</body>
+</html>	
