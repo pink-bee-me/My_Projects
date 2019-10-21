@@ -1,0 +1,23 @@
+table {
+    border: 1px solid silver;
+	 }
+
+
+th, tr, td {
+	text-align: center;
+	}
+
+td:hover {
+	background-color: black;
+	color: reg;
+}
+
+tr, th {
+	background-color:red;
+	color: black;
+}
+
+tr, td {
+	background-color: black;
+	color: green;
+}	
