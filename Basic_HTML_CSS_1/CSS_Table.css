@@ -1,23 +1,22 @@
-table {
+table 
+{
     border: 1px solid silver;
+	text-align : center;
 	 }
 
-
-th, tr, td {
-	text-align: center;
-	}
-
-td:hover {
-	background-color: black;
-	color: reg;
+td:hover
+ {
+	background-color: darkred;
+	color: white;
+}
+th
+ {
+	background-color:darkgray;
+	color: darkred;
 }
 
-tr, th {
-	background-color:red;
-	color: black;
-}
-
-tr, td {
-	background-color: black;
-	color: green;
-}	
+tr,td
+ {	
+background-color: silver;
+	color:black;
+ }
