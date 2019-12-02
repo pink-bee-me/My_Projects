@@ -1,0 +1,61 @@
+body {
+	margin: auto;
+	width: auto;
+	height: auto;
+	background: lightblue;
+	color: darkblue;
+	font-family: sans-serif;
+	font-size: medium;
+	word-spacing: normal;
+}
+
+.link-prelude {
+	text-align: center;
+	margin: auto;
+}
+
+.website-link {
+	text-align: center;
+}
+
+.logo-container {
+	width: 600px;
+	height: 300px;
+	background-color: #ffffff;
+	margin: auto;
+	padding: 10px, 5px;
+	align-content: center;
+}
+
+.logo img {
+	max-width: 100%;
+	width: 600px;
+	height: 300px;
+	align-content: center;
+	border-color: red;
+	border-style: dashed;
+	border-width: 2px;
+	z-index: 100;
+}
+
+.video-prelude h3 {
+	margin: 50px;
+	padding: 30px;
+	text-align: center;
+}
+
+.video-container {
+	margin: auto;
+	width: 620px;
+	height: 320px;
+	align-content: center;
+	background-color: #fff;
+}
+
+.video iframe {
+	margin: auto;
+	padding: 20px;
+	align-content: center;
+	width: 600px;
+	height: 300px;
+}
