@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <title>Visual Studio Simple Page 2</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <!-- Intro -->
+    <section>
+        <h3 style="color:cornflowerblue"><i>Today's topic...</i></h3>
+        <div Style="color:magenta">
+            <h1>The Best Movies Ever !!!</h1>
+        </div>
+    </section>
+
+    <!-- Movies -->
+    <section>
+        <h4 style="color:cornflowerblue">...let's get this thing started</h4>
+
+        </div>
+
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XiWZifUyNZE" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <h2 style="color:magenta"># 3 <Span style="color:lime"><b>Clay Pigeon</b></Span></h2>
+        <dd>This is the tale of a very unfortunate gas station attendant. Whatever can go wrong --will and does. Rated R
+            for nudity , language, and such; I personally classify this film as a DARK Dark Comedy. Maybe I'm
+            incorrect?<br>
+            I laughed outloud, more than once, at things that should NOT be funny...That's how funny it is!!!<br>
+            Starring: Joaquin Phoenix, Scott Wilson, Janeane Garofalo, and Vince Vaughn</dd>
+
+    </section>
+    <footer>
+        <h3>Contact Info.:</h3>
+        <p>email:<a href="mail to: LaurieSuePeterson@engineer.com">LaurieSuePeterson@engineer.com</a></p>
+    </footer>
+</body>
+
+</html>
