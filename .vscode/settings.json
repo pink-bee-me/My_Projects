@@ -2,5 +2,7 @@
     "editor.autoClosingBrackets": "always",
     "cSpell.words": [
         "checkoutmy"
-    ]
+    ],
+    "liveServer.settings.useBrowserPreview": true,
+    "liveServer.settings.fullReload": true
 }
