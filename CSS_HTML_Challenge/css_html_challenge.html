@@ -1,43 +1,52 @@
 <!DOCTYPE html>
+
 <html lang="en">
+<!---Author: LaurieSue Peterson
+ *** Purpose: Display of Concepts Covered in HTML & CSS Basics Course via Tech Academy December 2019 *** -->
 
 <head>
-    <title>Center Image Challenge</title>
+    <title>CSS_HTML_Challenge</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles_css_challenge.css">
-
 </head>
 
 <body>
-
     <!-------------- nav bar--------->
     <div class="navbar">
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#photo">Photo</a>
         <a href="#resources">Resources</a>
+        <a href="#take-away">The Take-Away</a>
         <a href="#contact">Contact Us</a>
     </div>
     <!------End nav bar-------->
 
     <div class="main">
+        <!--suggested to add main div for giving enough clearance for navbar to avoid content overlap-->
 
+        <!--Begin Home-->
         <div id="home">
             <h1>My children don't usually wanna watch these movies anymore...but I still do!!!</h1>
         </div>
+        <!--End Home-->
 
+
+        <!-- Begin About -->
         <div id="about">
             <h2>Have you heard of comfort food???
                 -- well, I think for me, it is really all about comfort background noise.</h2>
             <p>My name is usually "Mom" (and sometimes LaurieSue), and I am here to confess my love for animated
-                movies...Not ALL animated movies, but a lot of them. </p>
+                movies...Not ALL animated movies of course, because not ALL animated films are created equally- but I do
+                really enjoy a lot of them. I use them as an "emotional re-set"; as a result, I find the watching of
+                these films settles my spirit and bring me great comfort. </p>
         </div>
+        <!-- End About-->
 
 
+        <!--Begin Photo-->
 
-
-
-
+        <!--photo w/ text overlay and used text as anchor link too-->
         <div id="photo">
             <div class="photo-container">
                 <div class="overlay-image">
@@ -54,8 +63,12 @@
                 </div>
             </div>
         </div>
+        <!--End Photo-->
 
 
+        <!--Begin Resources/TABLE-->
+
+        <!-- center aligned table with  row headings and caption usage-->
         <div id="resources">
             <div class="table1">
 
@@ -65,9 +78,9 @@
                     </caption>
 
                     <tr>
-                        <th>Title</th>
-                        <th>Year</th>
-                        <th>Production</th>
+                        <th>Just a Few Family Faves...</th>
+                        <th>Year of Release</th>
+                        <th>Production Co./Studio</th>
                     </tr>
                     <tr>
                         <td>Shrek</td>
@@ -172,13 +185,45 @@
             </div>
         </div>
     </div>
+    <!--End Resources/TABLE-->
+
+    <!---Begin Thoughts /Comparison Section-->
+
+
+
+    <div id="take-away">
+        <div class="two-column-layout">
+            <!--creating a two column layout to organize thoughts/insight derived from the data in table -->
+            <h2>The "Take-Away"<br>
+                a.k.a.
+                <br>Processing The Process...
+            </h2>
+            <h5>meaning,...What magical life-changing insight was I able to glean from this somewhat random endeavor?
+            </h5>
+            <div class="row">
+                <div class="column" style="background-color:lightsteelblue;">
+                    <h2>Some Clever Heading Here for column 1</h2>
+                    <p>some magical insight here</p>
+                </div>
+                <div class="column" style="background-color:lightskyblue;">
+                    <h2>Some Clever Heading Here for column 2</h2>
+                    <p>some magical insight here</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---End Thoughts /Comparison Section-->
+
+
+    <!--Begin Contact/Footer-->
     <footer id="contact">
         <p>Posted by: LaurieSue Peterson</p>
         <p>Contact Info:<a href="mailto:LaurieSue@engineer.com">LaurieSue@engineer.com</a></p>
         <p><span>Photo: Provided Courtesy of Pixar Studios<br>
                 &copy;2007 All Rights Reserved</span></p>
     </footer>
-
+    <!--End Contact/Footer-->
 
 
 </body>

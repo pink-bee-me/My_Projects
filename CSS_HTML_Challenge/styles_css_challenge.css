@@ -1,208 +1,209 @@
 body {
-    font-family: sans-serif;
-    font-size: medium;
-
+	font-family: sans-serif;
+	font-size: medium;
 }
 
 .navbar {
-    overflow: hidden;
-    background-color: orchid;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 7%;
-    margin-bottom: 5%;
+	overflow: hidden;
+	background-color: orchid;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 7%;
+	margin-bottom: 5%;
+	z-index: 100; /*make sure nav bar is always shown on top and never under other content ( no content floating over the navbar ---but under nav bar)*/
 }
 
 .navbar a {
-    float: left;
-    display: block;
-    color: lime;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+	float: left;
+	display: block;
+	color: lime;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
 .navbar a:hover {
-    background-color: lime;
-    color: black;
-
+	background-color: lime;
+	color: black;
 }
 
-
 #home {
-    margin-top: 5%;
-
+	margin-top: 5%;
 }
 
 #about {
-    margin-top: 5%;
-
+	margin-top: 5%;
 }
 
 /*--- Fixed Top Nav Bar ------------*/
 
-
-
-
-
-
-
-
-
-
-
 .photo-container {
-    margin-top: 10%;
+	margin-top: 10%;
 }
 
 .image {
-    /* --- Center an Image with CSS ---*/
-    display: block;
+	/* --- Center an Image with CSS ---*/
+	display: block;
 
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
 
 /* ----Add Drop-Shadow Filter to Image ---*/
 img {
-    -webkit-filter: drop-shadow(10px 5px 55px #2f4f4f);
-    /* Chrome 18, Opera 15, Safari 6 */
-    filter: drop-shadow(10px 5px 55px #2f4f4f);
+	-webkit-filter: drop-shadow(10px 5px 55px #2f4f4f);
+	/* Chrome 18, Opera 15, Safari 6 */
+	filter: drop-shadow(10px 5px 55px #2f4f4f);
 }
 
 /* Give Image Rounded Edges */
 img {
-    border: 2px solid cornflowerblue;
-    border-radius: 15px;
-    margin-bottom: 25px;
+	border: 2px solid cornflowerblue;
+	border-radius: 15px;
+	margin-bottom: 25px;
 }
 
 /* --- Image Overlay with Text ---*/
 
 .photo-container {
-    /* main container */
-    position: relative;
-
-
+	/* main container */
+	position: relative;
 }
 
 .overlay-image {
-    /*original image file */
-    display: block;
-    height: auto;
+	/*original image file */
+	display: block;
+	height: auto;
 }
 
 .text-overlay a h3 {
-    /*text-overlay material*/
-    color: #ffffff;
-    font-size: larger;
-
+	/*text-overlay material*/
+	color: #ffffff;
+	font-size: larger;
 }
 
 .text-overlay a h3:hover {
-    color: fuchsia;
-    text-shadow: 2px 2px 2px white;
-
-
+	color: fuchsia;
+	text-shadow: 2px 2px 2px white;
 }
-
 
 .text-overlay h3 {
-    text-shadow: 2px 2px 2px #000000;
-    text-align: left;
-    position: absolute;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    font-size: small;
-    margin-left: 5px;
-
+	text-shadow: 2px 2px 2px #000000;
+	text-align: left;
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50%;
+	font-size: small;
+	margin-left: 5px;
 }
-
 
 /* --- Footer styled by Center and Bold ---*/
 footer {
-    text-align: center;
-    font-weight: bold;
+	text-align: center;
+	font-weight: bold;
 }
 
 footer p span {
-    font-style: italic;
-    font-size: .75em;
+	font-style: italic;
+	font-size: .75em;
 }
 
 table {
-    table-layout: auto;
-    width: 75%;
-
-
+	table-layout: auto;
+	width: 75%;
+	background: rgb(206, 222, 243);
 }
 
 table,
 th,
 td {
-    border: 2px solid black;
-    padding: 1% 1%;
-
+	border: 2px solid black;
+	padding: 1% 1%;
 }
 
 th {
-    background-color: cornflowerblue;
-    color: cornsilk;
-    height: 35px;
-    font-size: large;
-
+	background-color: cornflowerblue;
+	color: white;
+	height: 35px;
+	font-size: x-large;
+	text-shadow: 1px 1px 1px #f3a5e9, 0 0 1em white;
 }
 
 tr {
-    height: 30px;
-    padding: 8px 8px;
+	height: 30px;
+	padding: 8px 8px;
 }
 
 tr:nth-child(even) {
-    background-color: lavenderblush
+	background-color: snow;
 }
 
-
+tr:nth-child(odd) {
+	background-color: violet;
+}
 
 td {
-    font-size: large;
-    text-align: center;
-    padding: 10px 8px;
-
+	font-size: large;
+	text-align: center;
+	padding: 10px 8px;
 }
 
 .title-container {
-    widows: 100%;
-    height: 60px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+	widows: 100%;
+	height: 60px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
-
 caption {
-    color: fuchsia;
-    background-color: black;
-    width: 100%;
-    height: 60px;
-    margin-top: 50px;
-    margin-bottom: 15px;
-    font-weight: bold;
-    font-size: xx-large;
-    text-decoration: underline;
-    text-shadow: 2px 1px 2px white, 0 0 1em whitesmoke;
-
-    ;
-
+	color: fuchsia;
+	background-color: black;
+	width: 100%;
+	height: 60px;
+	margin-top: 50px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	font-size: xx-large;
+	text-decoration: underline;
+	text-shadow: 2px 1px 2px white, 0 0 1em whitesmoke;
 }
 
 .table-notes {
-    box-sizing: content-box;
-    width: 100%;
-    text-align: center;
-    font-style: italic;
-    font-size: small;
+	box-sizing: content-box;
+	width: 100%;
+	text-align: center;
+	font-style: italic;
+	font-size: small;
+}
+
+/* two column layout styling*/
+.two-column-layout {
+	box-sizing: border-box;
+}
+
+.two-column-layout h2 h2 {
+	font-weight: bolder;
+}
+
+.column {
+	float: left;
+	width: 40%;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 4mm ridge orchid;
+	margin-right: 0%;
+	margin-left: 7%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+/* this clears float after the columns */
+.two-column-layout .row:after {
+	content: "";
+	display: table;
+	clear: both;
 }
