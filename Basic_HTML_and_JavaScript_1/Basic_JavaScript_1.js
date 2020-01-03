@@ -2,10 +2,10 @@
 
 	window.alert("Hello,World! ");
 
-	document.write("Hello, World!
+	document.write("Hello, World!");
 	
-	var D = "This is a glorious day! ";
-	var D =D.fontcolor("cornflowerblue");
+	var D ="This is a glorious day! "
+	var D = D.fontcolor("cornflowerblue");
 	document.write(D);
 
 	
