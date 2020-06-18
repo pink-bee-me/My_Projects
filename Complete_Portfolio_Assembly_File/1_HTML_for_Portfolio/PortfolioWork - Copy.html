@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Head -->
+
+<head>
+	<meta charset="UTF-8">
+	<title>CreatingTheCode.com</title>
+	<link rel="stylesheet" type="text/css" href="../2_CSS_StyleSheet_for_Portfolio/Redo-Portfolio.css">
+	<link rel="" </head> <!-- Body -->
+
+	>
+
+
+
+	<!-- Navbar with Audio Play Option On Right -->
+	<div class="topnav">
+		<a href="#Home">Home</a>
+		<a href="#About">About</a>
+		<a href="#GitHub">GitHub</a>
+		<a href="#Contact">Contact</a>
+
+
+		<!-- Audio -->
+		<div class="audio_container">
+			<a href="#Audio_Control">Music Controls</a>
+
+			<audio controls id="Audio_Control">
+				<source src="../Audio_for_Portfolio/Golden Brown - The Stranglers.mp3" type="audio/mpeg">This
+				browser does not support audio playback.
+			</audio>
+		</div>
+	</div>
+	</ <!-- adding Button to mute music so that the audio content is optional -->
+
+
+
+
+
+	<!-- Set up For Possible Audio Pause/Play Button IN NAV BAR-->
+
+	<!--Audio controls to the right side of nav bar-->
+
+	<!-- tried to use music anchor to toggle visibility on the audio controls but its not working cuz I dont know JavaScript-->
+	<!-- trying a button now ... still JavaScript--
+
+
+		<!-- Breaks inserted to add space between 	    navbar/audio button and first heading in the home section -->
+
+
+	<!--END *Navbar with Audio Play Option On Right* END-->
+
+	<!-- Home Section-->
+	<div id="Home">
+
+		<!--think of this <div> as wrap/container for the video loop background and text overlay content-->
+
+		<!--The Video-->
+		<div class="video_container">
+			<video id="Golden_Moon" autoplay muted loop>
+				<!-- Makes the video play automatically, on a loop and with no sound/ declaration of id(myHomeSectionVideo)-->
+				<source src="../Video_for_Portfolio/Golden_Moon_Preview.mp4" type="video/mp4">This
+				browser
+				does
+				not
+				support HTML5 video.
+				<!-- Message if video display fails -->
+			</video>
+		</div>
+
+		<!-- Overlay Text Content To Display -->
+		<div class="video_overlay">
+			<center>
+				<h3>Introducing...</h3>
+				<h1>CreatingTheCode.com</h1>
+
+
+
+				<h2>Portfolio by LaurieSue Peterson</h2><br>
+				<div class="Text_Overlay_Quote">
+					<p><q>Here's to the crazy ones. The misfits.<br> The rebels. The
+							troublemakers. The round pegs in the square holes.<br> The ones who see things
+							differently. They're not fond of rules. And they have no respect for the
+							status
+							quo.<br>
+							You can quote them, disagree with them, glorify or vilify them. About the only
+							thing
+							you can't do is ignore them.<br> Because they change things. They push the human
+							race
+							forward. And while some may see them as the crazy ones, we see genius.
+							<br>Because
+							the
+							people who are crazy enough to think they can change the world, are the ones who
+							do.</q><br>
+						- Steve Jobs</p>
+
+				</div>
+			</center>
+		</div>
+	</div>
