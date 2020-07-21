@@ -1,0 +1,20 @@
+	<!-- Java Script ??????????????? lol -->
+	<!-- !--Make Music button bring up audio controls -->
+	<script src="../JavaScript_for_Portfolio/scripts_for_portfolio.js">
+		function myfunction()
+		if (audio.paused) {
+			audio_play();
+			btn.innerHTML = "Pause";
+		} else {
+
+		} audio.pause();
+		btn.innerHtML = "Play";
+
+
+	</script>
+
+
+
+
+<button id="myBtn" onclick="myFunction()">Pause</button>
+		</div>
